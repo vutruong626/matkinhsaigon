@@ -14,3 +14,10 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+
+# Large files and directories
+/public/backend/ckeditor/
+/public/upload/
+/public/img/
+source.zip
+test_route.php
