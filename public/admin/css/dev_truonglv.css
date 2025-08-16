@@ -1,0 +1,355 @@
+.color-default {
+    color: #ed1c24;
+}
+
+.background-default {
+    color: #ed1c24;
+}
+
+.btn-outline-primary {
+    border: 1px solid #ed1c24;
+    color: #ed1c24;
+}
+.btn-outline-primary:hover {
+    background-color: rgba(115, 103, 240, 0.08);
+    color: #7367f0;
+}
+
+a:hover {
+    color: #5e50ee;
+    text-decoration: none;
+}
+
+.MultiFile-list > .MultiFile-label {
+    background-color: transparent;
+}
+
+.data-list-view-header .add-new-data-sidebar .add-new-data, .data-thumb-view-header .add-new-data-sidebar .add-new-data {
+    width: 50rem;
+}
+
+.avatar-preview {
+    width: 100%;
+    height: 300px;
+    border-radius: 0;
+}
+.avatar-preview {
+    width: auto;
+    position: relative;
+    border-radius: 0;
+    border: 6px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 10%);
+}
+
+.avatar-preview > div {
+    border-radius: 0;
+    background-size: contain;
+}
+
+
+
+.avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.upload-img img{
+    width: 100%;
+    max-height: none !important;
+    max-width: none !important;
+}
+
+.product-name-category {
+    position: relative;
+    top: 8px;
+}
+
+.create-catagory .upload-img img{
+    width: 100px;
+}
+
+
+.image-product img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.image-product .block-img {
+    position: relative;
+    width: 243px;
+    display: inline-block;
+}
+
+.image-product .block-img .order-photo-product {
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.image-product .block-img .delete-photo {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #fff;
+    padding: 10px;
+}
+
+.image-product .block-img .delete-photo:hover {
+    background: #ed1c24;
+    color: #fff;
+    border-color: #fff;
+}
+
+.image-product .block-img .color-product {
+    margin-bottom: 20px;
+    right: 40px;
+}
+
+.select-color-glas {
+    display: inline-block;
+    padding: 10px;
+}
+
+.image-product .select-color-photo {
+    bottom: 55px;
+    left: 10px;
+}
+
+.models-create-all {
+    position: absolute !important;
+    width: 170px;
+    margin-top: 50px;
+    font-size: 16px;
+    left: 30px;
+}
+
+.custom-number-order .btn:not(.btn-sm):not(.btn-lg), .dropdown .btn:not(.btn-sm):not(.btn-lg).dropdown-toggle {
+    padding: 0px;
+}
+
+/* .page-product-admin .action-filters{
+    position: absolute;
+    left: 180px;
+    margin-top: 5px;
+} */
+
+/* .search-select-categories {
+    width: 20%;
+    position: absolute;
+    right: 380px;
+    border-radius: 50%;
+    margin-top: 20px;
+} */
+
+.search-select-categories fieldset .search-categories {
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+/* .search-select-materials {
+    width: 20%;
+    position: absolute;
+    right: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+} */
+
+.search-select-materials fieldset .search-materials {
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.reset-search {
+    width: 100%;
+    /* position: absolute; */
+    /* right: 55px; */
+    background: red;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 9px 10px;
+    /* margin-top: 20px; */
+}
+
+.reset-search a {
+    color: #fff;
+}
+
+.multiple-images .MultiFile-list{
+    /* flex-flow: nowrap; */
+}
+.multiple-images .MultiFile-list .MultiFile-label{
+    width: 200px;
+}
+.multiple-images.upload-img img {
+    width: 90%;
+}
+
+.plus-minus:after,
+.plus-minus.collapsed:after {
+  display: inline-block;
+  width: 1em;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+.plus-minus:after {
+  content:"-";
+  top: -1px;
+}
+.plus-minus.collapsed:after {
+  content:"+";
+  top: 0;
+}
+
+.select-collapsed {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    z-index: 1;
+    width: 90%;
+}
+.select-collapsed button{
+    font-size: 12px;
+    width: 100%;
+}
+
+.select-collapsed .collapse.show {
+    border-radius: 5px;
+    border: 1px solid #ed1c25;
+    padding: 5px;
+    width: 100%;
+    z-index: 1;
+    background: #f1f1f1;
+}
+
+.order-image-product {
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 55px;
+}
+
+.loadSampleData {
+    margin-top: 10px;
+    background: white;
+    border: 1px solid #ed1c24;
+    float: right;
+    color: #ed1c24;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.buttom-load-data-sample {
+    margin-top: 10px;
+    background: white;
+    border: 1px solid #ed1c24;
+    float: right;
+    color: #ed1c24;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.image-news .block-img{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.image-news img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.table-data-product {
+    border-spacing: 0 1.3rem;
+    padding: 0 0.7rem;
+    clear: both;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+    max-width: none !important;
+    border-collapse: separate !important;
+    border: 2px solid #F8F8F8;
+    color: #626262;
+}
+
+.table-data-product tbody tr{
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 5%) 0px 4px 20px 0px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 0.5rem;
+}
+
+.table-data-product tbody tr:hover {
+    transform: translateY(-4px);
+    transition: all 0.3s ease;
+}
+
+.page-product-admin ul.pagination{
+    justify-content: center;
+    margin: 2px 0;
+    white-space: nowrap;
+    padding-bottom: 7px;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+.dashboard .action-btns{
+    display: none !important;
+}
+
+.add-price-sale {
+    background: #ed1c25;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding-top: 8px;
+    cursor: default;
+}
+
+.container-price-sale {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container-price-sale.add-boder {
+    border: 1px solid #d8d9d9;
+}
+
+.price_row {
+    border: 1px solid #DDD;
+    width: 99%;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.delete-item-price-sale-right {
+    position: absolute;
+    right: 35px;
+    z-index: 10;
+}

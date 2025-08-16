@@ -1,0 +1,358 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.t-none {
+    opacity: 0;
+    position: absolute;
+    top: -9999999999px;
+}
+
+.color-default {
+	color: #ed1c24;
+}
+
+.color-black {
+	color: #000;
+}
+
+.color-blue-sky {
+	color: #0097df;
+}
+
+.color-white {
+	color: #fff;
+}
+
+
+.radius-5 {
+    border-radius: 5px !important;
+}
+
+.font-boil {
+    font-weight: bold;
+}
+
+.bg-danger {
+	color: #fff !important;
+	background-color: #ed1c24 !important;
+}
+
+.modal .modal-header .close span {
+	color: #ed1c24;
+}
+
+.main-menu .navbar-header .navbar-brand .brand-text {
+    color: #ed1c24;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-1rem {
+    font-size: 1rem;
+}
+
+.btn-outline-danger {
+	border: 1px solid #ed1c24;
+    background-color: transparent;
+    color: #ed1c24;
+}
+
+table.dataTable tbody tr.selected {
+    background-color: rgba(115, 103, 240, 0.05) !important;
+    color: #ed1c24 !important;
+    box-shadow: 0 0 1px 0 #ed1c24 !important;
+}
+
+.pagination .page-item.active .page-link {
+	background-color: #ed1c24;
+
+}
+
+table.data-list-view.dataTable tbody td.dt-checkboxes-cell input:checked:before, table.data-thumb-view.dataTable tbody td.dt-checkboxes-cell input:checked:before {
+	border: 2px solid #ed1c24;
+}
+
+table.data-list-view.dataTable tbody td.dt-checkboxes-cell input:after, table.data-thumb-view.dataTable tbody td.dt-checkboxes-cell input:after {
+	background-color: #ed1c24;
+}
+
+
+table.data-list-view.dataTable thead .dt-checkboxes-select-all input:checked:before, table.data-thumb-view.dataTable thead .dt-checkboxes-select-all input:checked:before {
+    border: 2px solid #ed1c24;
+}
+
+table.data-list-view.dataTable thead .dt-checkboxes-select-all input:after, table.data-thumb-view.dataTable thead .dt-checkboxes-select-all input:after {
+	background-color: #ed1c24;
+    border: 2px solid #ed1c24;
+}
+
+.customers-information .dt-buttons.btn-group {
+	display: none;
+}
+
+
+.header-navbar .navbar-container ul.nav li a.dropdown-user-link img {
+	object-fit: cover;
+}
+
+.upsort-users .media.mb-2{
+    align-items: center;
+}
+
+.upsort-users .users-avatar-shadow {
+    width: 200px;
+    height: 200px;
+	object-fit: cover;
+}
+
+.product-category .dt-buttons.btn-group {
+	display: none;
+	
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.main-menu.menu-light .navigation > li ul .active {
+	background: linear-gradient(118deg, #ed1c24, rgb(237 28 36 / 89%));
+    box-shadow: 0 0 10px 1px rgb(236 32 42 / 24%);
+    border-radius: 4px;
+}
+
+.main-menu.menu-light .navigation > li.active > a {
+	background: linear-gradient(118deg, #ed1c24, rgb(237 28 36 / 89%));
+    box-shadow: 0 0 10px 1px rgb(236 32 42 / 24%);
+}
+
+.view-acction .aligt-right-bt-acction {
+	text-align: right;
+    position: relative;
+    right: 70px;
+}
+
+.view-acction .action{
+	text-align: right;
+}
+
+/*News Create*/
+.upsort-product .sub-category-product ul {
+    list-style: none;
+}
+
+.upsort-product .sub-category-product ul li{
+    line-height: 2;
+}
+
+.select-search-product {
+
+}
+
+.custom-select.custom-select-sm.form-control.form-control-sm {
+	/* display: none; */
+}
+
+.select-search-product{
+    position: relative;
+}
+
+
+.select-search-product .search-brand{
+    width: 20%;
+    position: absolute;
+    right: 225px;
+    bottom: -75px;
+}
+
+.select-search-product .search-brand select{
+    border-radius: 30px;
+}
+
+.product-action {
+    text-align: center;
+    line-height: 2.5;
+}
+
+.select-search-footer select{
+	height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ea5354;
+}
+
+.show-dev {
+    display: block;
+}
+
+.invoice-add .invoice-preview-card .col-title, .invoice-edit .invoice-preview-card .col-title {
+    top: -3.75rem;
+}
+
+.align-items-left {
+    text-align: left;
+}
+
+/* .invoice-add .invoice-preview-card .invoice-title, .invoice-edit .invoice-preview-card .invoice-title {
+    margin-right: 1.5rem;
+} */
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+.print-receipts-insurance {
+    
+    max-width: 1000px;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: 10px;
+
+}
+
+.print-receipts-insurance .client-information {
+    position: relative;
+}
+
+.print-receipts-insurance .hear-print-receipts-insurance {
+    height: auto;
+}
+.table-products .table.table-bordered tbody tr:nth-last-child(2) th, .table-products .table.table-bordered tbody tr:nth-last-child(2) td {
+    border-bottom-style: solid !important;
+    border-block-width: 1px !IMPORTANT;
+}
+.print-receipts-insurance .name-company {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.print-receipts-insurance .name-company h1{
+    font-size: 34px;
+    font-family: none;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.print-receipts-insurance .link{
+    text-align: center;
+}
+
+.print-receipts-insurance .link h2{
+    font-size: 26px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.print-receipts-insurance .address h4{
+    text-align: center;
+    font-weight: 400;
+}
+
+.print-receipts-insurance .phone h4{
+    text-align: center;
+    font-weight: 400;
+}
+
+.print-receipts-insurance .title-bill {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.print-receipts-insurance .title-bill h3{
+    font-size: 28px;
+    font-weight: bold;
+} 
+
+.print-receipts-insurance .random-number {
+    text-align: center;
+}
+
+.print-receipts-insurance .information .full-name{
+    position: absolute;
+    left: 100px;
+    top: -5px;
+    font-size: 18px;
+}
+
+.print-receipts-insurance .information .date{
+    position: absolute;
+    left: 140px;
+    top: -5px;
+    font-size: 18px;
+}
+
+.print-receipts-insurance .information .email{
+    position: absolute;
+    left: 100px;
+    top: -5px;
+    font-size: 18px;
+}
+
+.print-receipts-insurance .information .phone{
+    position: absolute;
+    left: 100px;
+    top: -5px;
+    font-size: 18px;
+}
+
+.print-receipts-insurance .information .table-products .table-type-product{
+    width: 30%;
+    border: 1px 1px 0px 1px solid #626263;
+    border-bottom: 3px dashed #616262;
+    border-right: 1px solid #616262;
+    border-left: 1px solid #616262;
+}
+
+.print-receipts-insurance .information .full-number-price{
+    position: absolute;
+    left: 130px;
+    top: -5px;
+    font-size: 18px;
+}
+
+.print-receipts-insurance .information .full-number-pdsd{
+    position: absolute;
+    left: 250px;
+    top: -5px;
+    font-size: 18px;
+    
+}
+
+.print-receipts-insurance .note-text {
+    text-align: center;
+    position: relative;
+    right: 45px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.print-receipts-insurance .fix-logo-center-table {
+    position: absolute;
+    top: -148px;
+    width: 80%;
+    opacity: .3;
+    left: 80px;
+    z-index: 9;
+}
+
+
+@media (min-width: 576px){
+	.modal-dialog {
+		max-width: 800px;
+		margin: 1.75rem auto;
+	}
+}

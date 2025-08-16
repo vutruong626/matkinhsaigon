@@ -1,0 +1,74 @@
+.select2-container {
+    max-width: 100%;
+}
+html body {
+    overflow-x: hidden;
+}
+.btn-success,.btn-primary {
+    border-color: #ed1c24 !important;
+    background-color: #ed1c24 !important;
+    color: #fff !important;
+}
+.primary {
+    color: #ed1c24 !important;
+}
+.multi.MultiFile-applied {
+    display: inline-block;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    min-width: 116px;
+    padding: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid;
+    background-color: #ed1c24;
+    border-color: #ed1c24;
+    border-radius: 10px;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.multi.MultiFile-applied:hover {
+    background-color: transparent;
+    border-color: #ed1c24;
+    color: #ed1c24;
+    transition: all 0.3s ease;
+}
+.MultiFile-list {
+    display: flex;
+    flex-flow: wrap;
+    text-align: center;
+}
+
+.MultiFile-list > .MultiFile-label {
+    max-width: calc(100% - 10px);
+    width: 100%;
+    border: 1px solid #ed1c24;
+    margin: 15px 5px;
+    background-color: #00000052;
+}
+
+.MultiFile-list > .MultiFile-label .MultiFile-remove {
+    color: #ed1c24;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.MultiFile-list > .MultiFile-label .MultiFile-label {
+    display: flex;
+    color: #ed1c24;
+    font-weight: 700;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.MultiFile-list > .MultiFile-label  .MultiFile-title {
+    overflow-x: scroll;
+    display: block;
+    color: #ed1c24;
+    font-weight: 700;
+    order: 5;
+    width: 100%;
+}
