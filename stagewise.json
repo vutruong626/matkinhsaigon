@@ -1,0 +1,11 @@
+{
+  "port": 3100,
+  "appPort": 8003,
+  "autoPlugins": true,
+  "plugins": [
+    {
+      "name": "another-plugin",
+      "url": "http://another-cdn.example.com/plugin"
+    }
+  ]
+}

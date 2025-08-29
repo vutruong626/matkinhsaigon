@@ -30,3 +30,5 @@ php artisan view:cache
 # Start PHP-FPM
 echo "Starting PHP-FPM..."
 php-fpm
+
+
